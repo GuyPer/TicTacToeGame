@@ -1,0 +1,114 @@
+/* MOBILE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9d4f1c2;
+}
+
+#container {
+    /* width: 100vw;
+    height: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#headerOfGame {
+    margin-top: 20vw;
+    text-decoration: underline;
+}
+
+#table {
+    width: 70vw;
+    height: 50vw;
+    border-collapse: collapse;
+    margin: 0;
+    margin-top: 10vw;
+}
+
+.td {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    width: 10vw;
+    height: 10vw;
+    border: 5px solid #000;
+}
+
+#playAgainBtn:hover {
+    cursor: pointer;
+}
+
+#playAgainBtn {
+    color: #ecc0e6;
+    background-color: rgb(17, 17, 22);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 28vw;
+    height: 12vw;
+    margin-top: 15vw;
+}
+
+/* Tablet */
+@media (min-width:768px) {
+    #headerOfGame {
+        font-size: 3rem;
+    }
+
+    .td {
+        font-size: 2.5rem;
+        border: 7px solid #000;
+    }
+
+    #playAgainBtn {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Desktop */
+@media (min-width:1024px) {
+    #headerOfGame {
+        margin-top: 5vw;
+        font-size: 2.5rem;
+    }
+
+    .td {
+        font-size: 2.5rem;
+        border: 7px solid #000;
+    }
+
+    #table {
+        width: 30vw;
+        height: 20vw;
+        margin-top: 10vw;
+    }
+
+    .td {
+        font-size: 2rem;
+        font-weight: 600;
+        width: 5vw;
+        height: 5vw;
+        border: 5px solid #000;
+    }
+
+    #playAgainBtn:hover {
+        cursor: pointer;
+    }
+
+    #playAgainBtn {
+        font-size: 1.2rem;
+        border-radius: 15px;
+        width: 15vw;
+        height: 5vw;
+        margin-top: 5vw;
+    }
+}
