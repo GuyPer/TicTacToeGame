@@ -31,7 +31,6 @@ function isSombodyWon() {
         if (cellObj[a] === cellObj[b] && cellObj[b] === cellObj[c] && cellObj[c] === state) {
             // Return the winning combination
             winningCombination = combination;
-            console.log(winningCombination);
             for (let i=0;i<winningCombination.length;i++){
                 const cell=document.querySelector(`#td${winningCombination[i]}`)
                 cell.style.backgroundColor = "yellow";
